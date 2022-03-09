@@ -1,10 +1,14 @@
 
 import './App.css';
-import ReactSpringExample from './Components/ReactSpring/ReactSpringExample';
+import FramerExample from './Components/Framer/FramerExample';
+// import ReactSpringExample from './Components/ReactSpring/ReactSpringExample';
 
 function App() {
   return (
-    <ReactSpringExample/>
+    <>
+    {/* <ReactSpringExample/> */}
+    <FramerExample/>
+    </>
   );
 }
 
