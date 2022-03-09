@@ -8,7 +8,10 @@
 // import SemanticUIExample from './Components/SemanticUI/SemanticUIExample';
 // import BootStrapExample from './Components/BootStrap/BootStrapExample';
 // import GridExample from './Components/BootStrap/GridExample';
-import MaterialUIExample from './Components/MaterialUI/MaterialUIExample';
+
+import Background from "./Components/TailWindCSS/Background";
+
+// import MaterialUIExample from './Components/MaterialUI/MaterialUIExample';
 function App() {
   return (
   <>
@@ -17,7 +20,8 @@ function App() {
       <SemanticUIExample/> */}
       {/* <BootStrapExample/>
       <GridExample/> */}
-      <MaterialUIExample/>
+      {/* <MaterialUIExample/> */}
+      <Background/>
       </>)
 }
 
