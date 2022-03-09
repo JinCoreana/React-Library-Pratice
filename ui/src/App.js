@@ -1,18 +1,24 @@
-import 'App.css';
-import 'onsenui/css/onsenui.css';
-import 'onsenui/css/onsen-css-components.css';
-import OnsenUIExample from './Components/OnsenUI/OnsenUIExample';
-import AntDesignExample from './Components/AntDesign/AntDesignExample';
-import SemanticUIExample from './Components/SemanticUI/SemanticUIExample';
-
+// import 'antd/dist/antd.css';
+// import 'onsenui/css/onsenui.css';
+// import 'onsenui/css/onsen-css-components.css';
+// import 'semantic-ui-css/semantic.min.css'
+// import 'bootstrap/dist/css/bootstrap.min.css';
+// import OnsenUIExample from './Components/OnsenUI/OnsenUIExample';
+// import AntDesignExample from './Components/AntDesign/AntDesignExample';
+// import SemanticUIExample from './Components/SemanticUI/SemanticUIExample';
+// import BootStrapExample from './Components/BootStrap/BootStrapExample';
+// import GridExample from './Components/BootStrap/GridExample';
+import MaterialUIExample from './Components/MaterialUI/MaterialUIExample';
 function App() {
   return (
   <>
       {/* <OnsenUIExample/>
-      <AntDesignExample/> */}
-      <SemanticUIExample/>
-      </>
-  );
+      <AntDesignExample/>
+      <SemanticUIExample/> */}
+      {/* <BootStrapExample/>
+      <GridExample/> */}
+      <MaterialUIExample/>
+      </>)
 }
 
 export default App;

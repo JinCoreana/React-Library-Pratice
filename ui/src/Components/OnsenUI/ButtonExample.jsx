@@ -1,5 +1,5 @@
 import React from 'react'
-import { Button } from 'react-onsenui'
+import { ButtonGroup, Button } from 'react-onsenui'
 
 export default function ButtonExample() {
     return (
@@ -17,6 +17,26 @@ export default function ButtonExample() {
             <Button modifier="outline">
                 Tap Me
             </Button>
+
+            <>
+                <ButtonGroup size="lg" className="mb-2">
+                    <Button>Left</Button>
+                    <Button>Middle</Button>
+                    <Button>Right</Button>
+                </ButtonGroup>
+                <br />
+                <ButtonGroup className="mb-2">
+                    <Button>Left</Button>
+                    <Button>Middle</Button>
+                    <Button>Right</Button>
+                </ButtonGroup>
+                <br />
+                <ButtonGroup size="sm">
+                    <Button>Left</Button>
+                    <Button>Middle</Button>
+                    <Button>Right</Button>
+                </ButtonGroup>
+            </>
         </>
     )
 }
